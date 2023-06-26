@@ -1,0 +1,19 @@
+.ticket {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0fr 1fr 0fr;
+}
+
+.ticket:has(:nth-child(4)) {
+  grid-template-columns: 0fr 1fr 0fr 0fr;
+}
+
+.genre {
+  font-style: italic;
+}
+
+.poster {
+  width: 100px;
+  height: 120px;
+}

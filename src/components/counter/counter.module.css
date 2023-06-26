@@ -1,0 +1,32 @@
+.counter {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: 20px 0fr 20px;
+  grid-template-rows: 1fr;
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.count-change-btn {
+  width: 20px;
+  height: 20px;
+
+  background-color: #FF5500;
+}
+
+.count-change-btn:disabled {
+  background-color: #FFA375;
+}
+
+.count-change-btn:hover {
+  background-color: #E94E00;
+}
+
+.img-container {
+  width: 9px;
+  height: 9px;
+  margin: auto;
+
+  position: relative;
+}

@@ -1,0 +1,19 @@
+.question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: -24px -24px -24px;
+  padding: 24px 24px 24px;
+}
+
+.img-container {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.icon.open {
+  transform: rotate(180deg);
+}

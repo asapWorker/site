@@ -1,0 +1,30 @@
+.film {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  grid-gap: 32px;
+}
+
+.poster {
+  width: 500px;
+  height: 600px;
+  flex: 1;
+}
+
+.chapter {
+  margin: 16px 0;
+
+  font-size: 20px;
+}
+
+.chapter-name {
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 32px;
+}
+
+.text {
+  padding-top: 0;
+}
+

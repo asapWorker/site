@@ -1,0 +1,28 @@
+.review {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 1fr;
+  gap: 32px;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.rating-value {
+  font-weight: 600;
+}

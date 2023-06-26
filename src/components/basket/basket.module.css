@@ -1,0 +1,33 @@
+.basket-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.tickets-amount {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+
+  position: relative;
+
+  background-color: #FF5500;
+
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.tickets-amount-inner {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-container {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
